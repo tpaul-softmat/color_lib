@@ -11,6 +11,8 @@ from setuptools import setup
 setup(
     name="color_lib",
     version="0.1",
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     py_modules=["color_palettes"],
     install_requires=["matplotlib", "numpy"],
 )
