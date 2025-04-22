@@ -6,7 +6,7 @@ Created on Tue Jan 28 16:03:20 2025
 @author: tanay; Help: ChatGPT
 """
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="color_lib",
